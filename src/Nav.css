@@ -1,0 +1,43 @@
+.active{
+    background-color: pink;
+}
+.main {
+border: 2px solid red;
+background-image: linear-gradient(20deg,pink,yellow,aqua);
+}
+.main{
+    display: flex;
+}
+.main li{
+    list-style: none;
+    margin: 15px;
+    font-size: 15px;
+}
+.links{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: cursive;
+    color: black;
+}
+.menu{
+    /* border: 2px solid rgb(8, 35, 216); */
+    height: 30px;
+    width: 60px;
+    font-size: 25px;
+    font-family: cursive;
+    /* z-index: 1000; */
+}
+.menu:hover ul{
+    display: block;
+}
+.menu ul {
+background-color: aqua;
+padding: 5px;
+width: 100px;
+list-style: none;
+display: none;
+z-index: 40;
+}
+.logout{
+    z-index: 1000;
+}
